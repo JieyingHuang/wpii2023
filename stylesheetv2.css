@@ -1,0 +1,210 @@
+/*color*
+
+header,footer background color: #EECBC3;
+logo:#E07260;
+navigaiton: #EB8F7B 
+hr: #E0AD9F*/
+
+/*body*/
+
+body { 
+  background-color:#E8E3E3;
+  margin: 0;
+  font-family: Noto Serif Khmer;
+  background-image: url('img/bgi.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  
+}
+/*header*/
+.header {
+  overflow: hidden;
+  background-color:#EECBC3 ;
+  padding: 20px 20px;
+  
+  
+}
+
+.header a {
+color: #EB8F7B;
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+ 
+}
+
+.header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color:#E07260;
+  font-family: 'Pacifico', cursive;
+}
+
+.header a:hover {
+  background-color: none;
+  color: white;
+}
+
+.header a.active {
+  background-color: none;
+  color: white;
+}
+/*dropdown menu*/
+
+.ddbt {
+	background:#EECBC3;
+	text-decoration:underline;
+    font-size: 18px;
+	font-family: Noto Serif Khmer;
+	border:none;
+	float:center;
+	margin-top:8%;
+	padding: 10 10 10 10; 
+    }
+
+
+.dropdown {
+	position: absolute;
+	display: inline-block;
+}
+
+
+.ddcontent {
+
+  display: none;
+  position: absolute;
+  background-color: #EECBC3;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+	
+}
+
+
+.ddcontent a {
+  float:center;
+  padding: 12px 16px;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.ddcontent a:hover {background-color:white;}
+.dropdown:hover .ddcontent {display: block;}
+.dropdown:hover .ddbt {background-color:#EECBC3;}
+
+
+.header-right {
+  float: right;
+  margin-right: 18%;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+
+
+/*conten*/
+
+.img-me{
+	padding-top:5%;
+	margin-left: auto;
+	margin-right:10%;
+	height: 80%;
+    width: 35%;
+    float: right;
+
+}
+	
+  .intro{
+	color:#E07260;
+	position: absolute;
+	padding-top:18%;
+	font-size:35pt;
+	margin-left: 15%;
+	margin-right:20px;
+  float: left;}
+	
+.text{ font-family: 'Calistoga', cursive;
+	font-size: 40pt;
+}
+
+.footercontainer{ 
+	position: relative;
+	min-height: 100vh;
+	float: center;
+}
+
+/*footer*/
+
+.footer {
+  background-color:#EECBC3;
+  float: center;
+  text-align: center;
+  font-size: 1rem;
+  color: white;
+  position:absolute;
+  bottom:0;
+  padding-top:5px;
+  width:100%;
+  height:60px;
+  margin-bottom:0;
+  
+}
+  
+/*pages*/
+/*title*/
+h1{
+	font-family: 'Noto Serif Khmer', serif;
+	color:#EB8F7B;
+	text-align:center;
+	margin-top:50px;
+	font-size: 64pt;
+	}
+/*caption title*/	
+h2{ 
+	font-family: 'Noto Serif Khmer', serif;
+	color:#EB8F7B;
+	text-align:center;
+	margin-top:50px;
+	font-size: 25pt;}
+
+/*source/author*/
+
+h3{
+	font-family: 'Noto Serif Khmer', serif;
+	color: white;
+	text-align:center;
+	font-size: 15pt;
+	}
+
+	
+div {font-family: 'Noto Serif Khmer', serif; 
+	 font-size: 12pt;
+	 color: #E0AD9F;
+	
+	 }
+	 
+
+/*caption*/
+p.caption {
+text-align: center;
+color:#EB8F7B;
+font-family:Noto Serif Khmer;
+}
+
