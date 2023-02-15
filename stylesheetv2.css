@@ -110,7 +110,7 @@ float:center;
 
 .header-right {
   float: right;
-  margin-right: 18%;
+  margin-right: 5%;
 }
 
 @media screen and (max-width: 500px) {
