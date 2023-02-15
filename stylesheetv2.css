@@ -67,6 +67,14 @@ color: #EB8F7B;
 	padding: 10 10 10 10; 
     }
 
+	.ddbt1 {
+	background:#EECBC3;
+	text-decoration:underline;
+    font-size: 18px;
+	font-family: Noto Serif Khmer;
+	border:none;
+	float:center;
+    }
 
 .dropdown {
 	position: absolute;
