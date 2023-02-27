@@ -1,0 +1,61 @@
+
+body{ 
+background-color: #D3E6F2;
+font-family:Gorgia;
+}
+
+hr{
+	background-color:#F07A7E;
+	height: 5px;
+	
+}
+
+h1{ 
+	font-family: Gorgia;
+	color:#F07A7E;
+	text-align:center;
+	margin-top:50px;
+	font-size: 64pt;
+}
+	
+
+.poem{ 
+	padding: 20px; 
+	margin-left: 35%;
+	
+		}
+		
+		
+p{ 
+font-family:Gorgia;
+color: #F07A7E;
+font-size:15pt;	
+	}
+
+select {
+background-color: #D3E6F2;
+border-color:#F07A7E;
+padding: 5px;
+color: #F07A7E;
+}
+
+/*logo*/
+
+
+.header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none; 
+  color:#E07260;
+  font-family: 'Pacifico', cursive;
+}
+
+.header a:hover {
+  background-color: none;
+  color: white;
+}
+
+.header a.active {
+  background-color: none;
+  color: white;
+}
