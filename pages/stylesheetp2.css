@@ -13,11 +13,31 @@ hr{
 h1{ 
 	font-family: Gorgia;
 	color:#F07A7E;
-	text-align:center;
+
 	margin-top:50px;
 	font-size: 64pt;
+
 }
 	
+.box {
+margin-left: 40%;
+  background:#F07A7E;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  transition-property: background, border-radius;
+  transition-duration:2s;
+  transition-timing-function: linear;
+  width: 195px;
+  
+}
+.box:hover {
+
+  background:#D3E6F2;
+  border-radius: 50%;
+
+}
+
 
 .poem{ 
 	padding: 20px; 
@@ -59,3 +79,9 @@ color: #F07A7E;
   background-color: none;
   color: white;
 }
+
+.sketch { 
+
+
+} 
+
