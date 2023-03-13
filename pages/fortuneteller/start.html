@@ -1,0 +1,53 @@
+ <!DOCTYPE html>
+<html>
+   
+  <head>  
+   <link rel="stylesheet" href="styles.css">
+
+  
+  <script> 
+  
+  	function func()
+	{document.body.style.backgroundColor = getRandomColor();
+	}
+	
+function getRandomColor() {
+    var letters = "0123456789ABCDEF".split('');
+    var color = "#";
+    for (var i = 0; i < 6; i++ ) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+  
+  
+  
+  function myFunction(){ 
+  location. replace ("index.html")}
+  
+
+  
+  
+  function changeBackground(color) {
+   document.body.style.background = color;
+}
+
+window.addEventListener("load",function() { changeBackground('red') });
+  
+  </script> 
+  </head> 
+  
+  <body onload="func()"> 
+  <div class=t1>
+
+  <h1 onclick="myFunction ()"> START </h1>
+
+  </div>
+
+
+  
+  
+  
+  </body> 
+  </html> 
+  
