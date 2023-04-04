@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  
+  <title> Doggo ;P </title> 
+  
+   <link rel="stylesheet" href="styles.css">
+  </head> 
+  <body> 
+  
+   <main>
+      <h1> Hey, Doggo &#128054;  </h1>
+	  
+	 <hr> 
+	 
+	 <ul>
+  <li><a> Home</a></li>
+  <li><a href="breed.html"> Breeds</a></li>
+  <li><a href="buyadogtreat.html"> Buy me a dog treat &#128062; </a></li>
+  <li style="float:right"><a href="#about">   &#128021; &#129454; &#128021;&#8205;&#129466; &#128041;</a></li>
+</ul>
+
+<div class="randomImageContainer" id="randomImageContainer">
+<div class="ImgContainer" id="ImgContainer"> </div>
+
+<div class="btn">
+<p class="dogInfo">Check out the doggo...🦴</p>
+
+
+
+<button class="randombtn" id="randombtn" >Random Doggo!</button>
+</div>
+</div>
+<script>
+  const randombtn= document.getElementById('randombtn');
+
+randombtn.addEventListener('click', getRandomDog);
+
+function getRandomDog(){ 
+    fetch ('https://dog.ceo/api/breeds/image/random')
+    .then (res => res.json())
+    .then (data => {
+        ImgContainer.innerHTML=`<img src="${data.message}"/>`
+    })
+}
+
+</script>
+	  
+	  
+  </body>
+  </html>
