@@ -1,0 +1,308 @@
+body{
+background-color: #FFF7DE;
+font-family: 'Calistoga', cursive;
+}
+
+
+h1 {
+  
+	color:#774f38;
+	text-align: center;
+	float: center;
+  font-size:54px;
+	font-family: 'Indie Flower', cursive; 
+
+}
+
+h2{
+	text-align: center;
+	color:#774f38;
+  padding:5px;
+  font-size:34px;
+	font-family: 'Indie Flower', cursive; 
+
+}
+
+
+h3{
+  color:#774f38;
+	text-align: center;
+	float: center;
+  font-size:24px;
+	font-family: 'Indie Flower', cursive; 
+ 
+}
+
+
+hr{ 
+width:100%;
+background-color:#febf92;;
+padding: 2px;
+border:none;
+
+
+}
+
+
+ul {
+  list-style-type: none;
+  padding:0;
+  overflow: hidden;
+  background-color:#febf92;
+}
+
+li {
+  float: left;
+  border-right:1px solid white;
+}
+
+
+
+li a {
+  display: block;
+ color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:#83af9b;
+}
+
+.dogs {
+  text-align: center;
+  size: 10pt;
+}
+
+.randomImageContainer {
+  display:flex; 
+  height:500px;
+  width:100;
+}
+
+.ImgContainer {
+  margin-left: 5%;
+  padding: 15px;  
+}
+
+img{
+max-width: 600px;
+max-height: 600px;
+min-width: 600px;
+min-height: 600px;
+margin-left: 65%;
+
+}
+
+.btn{
+  position:absolute;
+  margin-top: 10%;
+  margin-left:8%;
+  align-items: center;
+  
+}
+
+
+.dogInfo { 
+color:#774f38;
+font-size: 20pt;
+}
+
+.randombtn{ 
+background-color: #febf92;
+color:#ffff;
+font-family: 'Indie Flower', bold;
+border:none;
+padding:20px 16px;
+text-align:center; 
+font-size: 30px;
+transition-duration: 0.4s;
+}
+
+.randombtn:hover {
+  background-color:#83af9b;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+/*page breed*/
+
+.app{ 
+  height:100%;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+
+}
+select{
+  font-size: 1rem;
+  width:100%;
+    padding: 12px;
+    border: 1px solid #AD6D5F;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    resize: vertical
+}
+
+.slideshow{
+  flex: 1; 
+  position:absolute;
+}
+
+#doggo-image {
+  margin:center;
+  object-fit:contain;
+  width:25%;
+ 
+}
+
+.slide{
+  position: absolute;
+  top:40%;
+  bottom:10%;
+  left:30%;
+  right:15%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.description{
+  position: absolute;
+  margin-top: 42%;
+  margin-left:35%;
+  color:#774f38;
+  padding:50px;
+}
+
+.breedintro{
+  color:#774f38;
+  font-size: 15pt; 
+
+}
+
+
+/*contact*/
+.contact {
+  width:100%;
+  color: #AD6D5F;
+  border-radius: 5px;
+  background-color:#febf92 ;
+  padding: 20px;
+  flex-direction: column;
+}
+ input[type= name],select,textarea {
+
+  width:100%;
+  padding: 12px;
+  border: 1px solid #AD6D5F;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+input[type= email],select,textarea {
+  
+  width:100%;
+  padding: 12px;
+  border: 1px solid #AD6D5F;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+input[type= tel],select,textarea {
+  color:#774f38;
+  width:100%;
+  padding: 12px;
+  border: 1px solid #AD6D5F;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+
+input[type=SEND] {
+  font-family: 'Calistoga', cursive;
+  text-align: center;
+  font-size: 15pt;
+  background-color: #D9FFF1;
+  color: #AD6D5F;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=SEND]:hover {
+  background-color:#83af9b;
+
+}
+p{
+  text-align: center;
+  font-size: 28pt;
+}
+.number{ 
+  width: 200px;
+  
+}
+
+.send{
+  border:none;
+  background-color:#83af9b;
+  color:#ffff;
+  font-family: 'Indie Flower', bold;
+  padding:20px 16px;
+text-align:center; 
+font-size: 18px;
+border-radius:0.4cm;
+transition-duration: 0.4s;
+
+}
+p.text{
+  font-size: 20pt;
+  color:#774f38;
+  font-family: 'Indie Flower', bold;
+}
+
+label{
+
+  color:#774f38;
+}
+
+a.result {
+  
+  border:none;
+  background-color:#83af9b;
+  color:#ffff;
+  font-family: 'Indie Flower', bold;
+  padding:10px 6px;
+  text-decoration: none;
+text-align:center; 
+font-size: 12px;
+border-radius:5px;
+transition-duration: 0.4s;
+}
+
+iframe{
+
+margin-left: 28%;
+}
+
+

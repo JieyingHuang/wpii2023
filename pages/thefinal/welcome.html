@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewpoint" content="width-device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <title> Welcome </title>
+    <style> 
+        body{
+            background-color:#fff0e5;
+            height:100vh;
+            margin:0;
+            display:grid;
+            place-items:center;
+        }
+       
+       body p{
+            font-family: 'Indie Flower', bold;
+            text-align:center;
+            text-transform: uppercase;
+            font-weight:bold;
+            font-size:20px;
+            color:#774f38;
+            background-color: #FFF7DE;
+            box-shadow: 20px 20px #83af9b;
+            padding:50px;
+            border-radius: 11px;
+            mix-blend-mode:multiply;
+            animation: float 5s ease-in-out infinite;
+        }
+
+        body p::after{
+            content:'.';
+            font-weight:bold;
+            text-align: left;
+            font-size: 60px;
+            text-shadow: 22px 22px #83af9b; 
+            -webkit-text-fill-color:#FFF7DE;
+            height:12px;
+            width:65px;
+            line-height:20px;
+            border-radius:11px;
+            background-color: #FFF7DE;
+            position:absolute;
+            bottom:-30px;
+            left:0;
+            box-shadow: 20px 20px #83af9b;
+            z-index:-2;
+            animation: float 5s ease-in-out infinite;
+
+        }
+
+
+        @keyframes float{
+            0%{
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100%{
+                transform: translateY(0px);
+            }
+        }
+
+    body::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(#febf92, #83af9b);
+    clip-path: circle(32% at 90% 90%);
+}
+
+body::after{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(#febf92, #83af9b);
+    clip-path: circle(25% at 7% 13%);
+   
+}
+
+a {
+    text-decoration:none ;
+    color: #774f38;
+}
+
+
+    </style>
+    </head> 
+
+    <body> 
+            
+            <p > 
+                <a href="log_in.html"> Welcome! <br> Ready to see the doggo world? </a>
+                 </p>
+        
+        
+    </body>
+
+    </html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <title> SITE MAP </title> 
+
+<style> 
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#FFF7DE; 
+}
+/*circle*/ 
+body::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(#febf92, #83af9b);
+    clip-path: circle(45% at 90% 90%);
+}
+
+body::after{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(#febf92, #83af9b);
+    clip-path: circle(12% at 7% 3%);
+   
+}
+
+main::after{ 
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(#febf92, #83af9b);
+    clip-path: circle(23% at 30% 15%);
+}
+
+main::before{ 
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(#febf92, #83af9b);
+    clip-path: circle(15* at 27% 72%);
+    opacity: 50%;
+}
+
+.window {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.window .login{
+    position: relative;
+    width:350px;
+    height: 500px;
+    background-color: rgba(255,255,255,0.1);
+    margin:30px;
+    border-radius: 15px;
+    box-shadow: 20px 10px 50px rgba(0,0,0,0.5);
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+}
+
+.window.login.fillup {
+    text-align: center;
+
+
+}
+ h1{
+    position: absolute;
+    top:0;
+    right:10px;
+    font-size: 138px;
+    color:rgba(255, 255, 255, 0.057);
+}
+h2{
+    font-size: 25px;
+    color:#774f38;
+    font-family: 'Indie Flower', cursive; 
+}
+form{
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height: 250px;
+}
+
+input{
+    width:200px;
+    height:40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #eee;
+    font-size: 16px;
+    outline: none;
+}
+
+a {
+   font-size: 15px;
+    color:#774f38;
+}
+
+
+
+
+</style>
+  </head> 
+  
+  <body> 
+    <main>
+    <div class="window"> 
+    
+        <div class="login">
+            
+            <div class="fillup">
+                           
+            <h1> &#128062 </h1>
+            <h2> SITE MAP..</h2>
+            <br>
+        <form>
+        <a href="welcome.html"> Welcome </a>
+        <a href="log_in.html"> Login </a>
+        <a href="dogsh.html"> Home</a>
+        <a href="breed.html"> Breed </a>
+        <a href="buyadogtreat.html"> Buy a dog treat </a>
+        <a href="location.html"> Find us </a>
+        <a href="http://jyhuang.rf.gd/user.php"> login submit form </a>
+        <a href="http://jyhuang.rf.gd/accounts.php"> login result</a>
+        <a href="http://jyhuang.rf.gd/sumbitform.php"> contact submission </a>
+        <a href="http://jyhuang.rf.gd/results.php"> contact result</a>
+    </form>
+
+              
+
+
+        </div>
+        </div>
+        </div>
+
+    </main>
+  </body>
+</html>
